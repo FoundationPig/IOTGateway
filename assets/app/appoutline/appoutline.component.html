@@ -58,12 +58,32 @@
         </a>
         <ul class="treeview-menu">
           <li class="active">
-            <a href="index.html">
-              <i class="fa fa-circle-o"></i> Dashboard v1</a>
+            <a [routerLink]="['/basechart']">
+              <i class="fa fa-circle-o"></i> Base Chart</a>
           </li>
           <li>
-            <a href="index2.html">
-              <i class="fa fa-circle-o"></i> Dashboard v2</a>
+            <a [routerLink]="['/piechart']">
+              <i class="fa fa-circle-o"></i> Pie Chart</a>
+          </li>
+          <li>
+            <a [routerLink]="['/linechart']">
+              <i class="fa fa-circle-o"></i> Line Chart</a>
+          </li>
+          <li>
+            <a [routerLink]="['/barchart']">
+              <i class="fa fa-circle-o"></i> Bar Chart</a>
+          </li>
+          <li>
+            <a [routerLink]="['/radarchart']">
+              <i class="fa fa-circle-o"></i> Radar Chart</a>
+          </li>
+          <li>
+            <a [routerLink]="['/doughnutchart']">
+              <i class="fa fa-circle-o"></i> Doughnut Chart</a>
+          </li>
+          <li>
+            <a [routerLink]="['/polarareachart']">
+              <i class="fa fa-circle-o"></i> Polar Area Chart</a>
           </li>
         </ul>
       </li>
